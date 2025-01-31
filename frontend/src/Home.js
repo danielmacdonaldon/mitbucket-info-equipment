@@ -40,7 +40,7 @@ function Home() {
     setLoading(true);
 
     try {
-      await axios.post("http://localhost:3001/api/info", {
+      await axios.post("https://mitbucket-info-equipment.vercel.app/api/info", {
         email,
         password,
       });

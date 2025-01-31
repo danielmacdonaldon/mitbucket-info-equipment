@@ -7,7 +7,7 @@ function Vault() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/api/info")
+      .get("https://mitbucket-info-equipment.vercel.app/api/info")
       .then((response) => {
         setData(response.data);
       })
